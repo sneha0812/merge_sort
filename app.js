@@ -2,7 +2,7 @@
     if (array.length <= 1) {
         return array[0];
     }
-    let middle = array.length / 2;
+    const middle = array.length / 2;
     let start = 0, end = array.length - 1;
     console.log(array.length);
     let left = array.split(start, middle);
